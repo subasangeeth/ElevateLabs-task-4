@@ -2,24 +2,24 @@
 
 > ### Steps:
 1. Initialize Terraform
-terraform init
+**terraform init**
 
 2. Plan the Infrastructure
-terraform plan
+**terraform plan**
 
 3. Apply the Configuration
-terraform apply
+**terraform apply**
 
-   - pulled and deployed the image in container : subasangeeth/springapp:latest.
+   - pulled and deployed the image in container : _subasangeeth/springapp:latest_
 
 4. Verify that container is running
-docker ps
+**docker ps**
 
 5. Check Terraform State
-terraform state list
+**terraform state list**
 
 6. Destroy 
-terraform destroy
+**terraform destroy**
 
 > ### Logs 
 
