@@ -1,6 +1,6 @@
-#Task 4 @ ElevateLabs
+# Task 4 @ ElevateLabs
 
----Steps:
+> ### Steps:
 1. Initialize Terraform
 terraform init
 
@@ -10,7 +10,7 @@ terraform plan
 3. Apply the Configuration
 terraform apply
 
-I pulled and created image: subasangeeth/springapp:latest.
+   - pulled and deployed the image in container : subasangeeth/springapp:latest.
 
 4. Verify that container is running
 docker ps
@@ -21,6 +21,6 @@ terraform state list
 6. Destroy 
 terraform destroy
 
-Stored Logs
+> ### Logs 
 
 All Terraform command outputs (plan, apply, and destroy) are saved inside the logs/ folder.
